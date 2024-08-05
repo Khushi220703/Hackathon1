@@ -1,0 +1,330 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*conatiner css of box-1*/
+.box-1{
+    margin: -10px;
+    padding: 0px;
+    background-color: #293f50;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*top part of .box-1 having logo and link to other pages*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+.header > p{
+    width: 10%;
+    color: white;
+    font-weight: 100;
+    font-size: xx-large;
+    
+}
+
+.header > p:hover{
+    color: #648880;
+}
+
+.date{
+    font-size: larger;
+    color: #648880;
+    font-weight: 200;
+    padding: 10px;
+    text-align: end;
+    
+}
+.nav-list > ul{
+    display: flex;
+    justify-content: space-around;
+    flex: column;
+    color: white;
+    list-style-type: none;
+   font-size: large;
+   font-weight: 500;
+   padding: 15px;
+   padding-top: -30px;
+    
+}
+
+li{
+    margin: 0px 10px;
+}
+
+.note{
+    text-align: center;
+}
+
+.note > p{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #648880;
+    font-weight: 200;
+}
+.note > h4{
+    color: white;
+    width: 55%;
+    position: relative;
+    left: 350px;
+    font-size: larger;
+    word-spacing: 1px;
+
+}
+.box-1 > button{
+    color: white;
+    width: 14%;
+    height: 58px;
+    background-color:  #293f50;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.box-1 > button:hover{
+    color: grey;
+    background-color: white;
+}
+
+/*contain css of box-2*/
+.box-2{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+    left: 19%;
+    color: rgb(146, 164, 182);
+    font-weight: 100;
+   
+}
+
+.box-2 > div{
+    width: 30%;
+}
+
+img{
+    width: 280px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+/* contain css of box-3*/
+
+.box-3{
+    background-color: #293f50;
+    color: white;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box-3 > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+/*styling register.html page*/
+
+.register{
+    text-align: center;
+    margin: -10px;
+    margin-top: -20px;
+    padding: 20px;
+    color: grey;
+    background-image: linear-gradient(to right,rgb(125, 192, 25),rgb(77, 245, 77),rgb(242, 242, 99), rgb(242, 242, 109));
+}
+
+.price-form{
+    display: flex;
+    width: 65%;
+    padding: 20px;
+    margin: auto;
+    color: grey;
+}
+.price{
+    width: 70%;
+}
+.price > h1{
+    font-weight: 100;
+    color: rgb(112, 111, 111);
+}
+
+.price > p {
+    color: rgb(129, 126, 126);
+}
+
+.why > h1{
+    font-weight: 100;
+    color: rgb(112, 111, 111);
+}
+
+.why > ul{
+    color: rgb(129, 126, 126);
+}
+
+.form1 > button{
+   position: relative;
+   left: 35%;
+   margin-top: 10px;
+   border: none;
+   font-size: medium;
+   font-weight: 400;
+   color:aliceblue;
+   background-color: rgb(104, 104, 104);
+   height: 40px;
+   border-radius: 4px;
+   width: 100px;
+}
+
+.form1 > button:hover{
+    background-color: rgb(78, 77, 77);;
+}
+
+/*styling venue*/
+
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    color: grey;
+    justify-content: space-between;
+}
+
+
+.second{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    color: grey;
+    justify-content: space-between;
+}
+
+/* styling schedule page*/
+
+.workshops{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    color: grey;
+}
+
+.workshop > h1{
+    display: inline;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+    
+
+}
+
+.workshop > p{
+    display: inline;
+}
+
+.registrationTime > p{
+    display: inline;
+    padding: 30px;
+   
+
+}
+
+.event1 > p{
+    display: inline;
+    padding: 30px;
+   
+}
+
+.host{
+   display: inline-block;
+   width: 40%;
+}
+
+.conference{
+    margin-top: 100px;
+}
+.speaker-link:hover{
+    color: rgb(159, 156, 156);
+   
+}
+/*styling spekaer.html*/
+
+.speaker{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    color: gray;
+    margin-top: 5%;
+}
+.info{
+    width: 60%;
+}
+
+.info > h1{
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+}
+
+.image{
+    width: 35%;
+    border: 1px solid gray;
+    height: 160px;
+    margin: 30px;
+    position: relative;
+}
+
+.speaker-image{
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   top: -35px;
+   right: 99px;
+}
+
+.name1{
+    text-align: center;
+    position: relative;
+    top: 55px;
+   
+  
+}
+
+.name1 > a{
+    color: grey;
+   
+}
+
+.name1 > a:hover{
+    color: rgb(167, 164, 164);
+}

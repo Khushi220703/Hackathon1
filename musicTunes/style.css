@@ -1,0 +1,154 @@
+
+/*this css for first section.*/
+#head{
+    background-image: url("./images/guitar1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    height: 700px;
+    margin: 0px -8px;
+
+}
+
+/*This is nav bar section.*/
+header{
+    background-color: rgb(41, 41, 60);
+    width: 102%;
+    margin: -20px;
+    height: 42px;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    
+}
+
+header > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 30%;
+    font-size: larger;
+    margin: 20px;
+    padding: -10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  
+   
+}
+
+section {
+    width: 40%;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    word-spacing: 2px;
+}
+
+/*This css is for second  section of div*/
+#music{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 200px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#music > h1{
+    color: rgb(35, 35, 60);
+}
+
+#music > button{
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 65);
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+}
+
+/*This css is for thirs section of div*/
+#video{
+    background-image: url("./images/music.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    width: 101%;
+    height: 800px;
+    margin: 0px -8px;
+
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+}
+
+/*This css is for fourth having gift card  section of div*/
+.gift{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 200px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+   
+}
+
+.text{
+    margin-left: 25px;
+    
+}
+.text > h2{
+    color: rgb(31, 12, 50);
+}
+
+/*This is for footer section(last) of page*/
+.footer-a{
+   
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.footer-a > div{
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-b{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin: -8px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+/*This css is for all the links  of page*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
